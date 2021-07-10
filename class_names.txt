@@ -1,0 +1,308 @@
+#dataset_name replacement_name
+BabyAccessories|BabyAccessory
+BabiesTableware|BabyTableware
+BabyCoushionsandBlankets|BabyCushion_Blanket
+ChildrenRugs|ChildrenRug
+CurtainsDrapers|CurtainDraper
+ChildrenBed|Children_Bed
+Changing-Table Nursing|ChangingTable_Nursing
+ChildrenToys|ChildrenToy
+ChildrensLighting|ChildrenLighting
+ChildrenLighting|Children_Lighting
+HooksandHangers|Hook_Hanger
+SmallBoxes|SmallBox
+ToystorageBoxes|BabyToyStorageBox
+STUVACombinations|STUVACombination
+STUVADoorsandDrawers|STUVADoorDrawer
+STUVAFrames|STUVAFrame
+childrens-chest-of-drawers|ChildrenChestOfDrawers
+childrens-wardrobes|ChildrenWardrobe
+toy-storage-boxes|ToyStorageBox
+#toy-storage|ToyStorage
+Cots|Cot
+HighChairs|HighChair
+CotMatrices|CotMattress
+Accesories|ChildrenAccessory
+chairschildren|ChildrenDeskChair
+childrendesks|ChildrenDesks
+ChildrenMatricess|ChildrenMattress
+DeskandChairs|ChildrenDesk_Chair
+ChildrenDuvetCover|Children_DuvetCover
+ChildrenTextiles8-12|ChildrenTextile8_12
+Canopies|Canopy
+BooksGames|Book_Game
+Arts&Craft|Art_Craft
+SoftToys|SoftToy
+TentToys|TentToy
+WoodenToys|WoodenToy
+BathroomInteriorOrganizer|InteriorOrganizer
+BathroomScales|Scale
+BathroomSinkAccessories|SinkAcessory
+ShowerAccessories|ShowerAccessory
+ToiletAccessories|ToiletAccessory
+TowelRails&TowelHolders|TowelRails_TowelHolders
+BathroomLighting|Lighting
+BathroomMirrors|Mirror
+BathroomSinks|Sink
+Taps|Tap
+Showers|Shower
+ShowerCurtains|ShowerCurtain
+Glass Sleves|GlassSelf
+Bathroom High Cabinet|HighCabinet
+Bathroom Trolleys|Trolley
+Bathroom Wall Cabinets|WallCabinet
+Shelf Units|SelfUnit
+BathMats|BathMat
+Bathropes&Slippers|Bathrobe_Slipper
+Towel100times150|Towel_100x150
+Towel30times30|Towel_30x30
+Towel40times70|Towel_40x70
+Towel70times140|Towel_70x140
+BathroomBaseCabinets|BaseCabinet
+BathroomCounterpots|CabinetCountertop
+BathroomCabinetLEGS|CabinetLegs
+BathroomSinkCabinets|SinkCabinet
+Under Bed Storage|UnderBedStorage
+Mattrisses Pillow Protectors|Mat_PillowProtector
+Mattisses|Mat
+Duvets|Duvet
+DressingTables|DressingTable
+BedSideTables|BedsideTable
+AdultBeds|AdultBed
+BedAccessories|BedAccessory
+ChildrenBeds|ChildrenBed
+ChildrenDuvet Covers|ChildrenDuvetCover
+DuvetCovers|DuvetCover
+PillowCovers|PillowCover
+Sheets|Sheet
+ChairPads|ChairPad
+Decorative Lighting|DecorativeLighting
+FloorLamps|FloorLamp
+Sideboards and Buffets|Sideboard_Buffet
+Speakers|Speaker
+ChestofDrawers|ChestOfDrawers
+ClothesandShoes Storage|Clothes_ShoesStorage
+DoorMats|DoorMat
+Mirror|HallwayMirror
+OpenStorageFurniture|OpenStorageFurniture
+Wordrobes|Wardrobe
+BookcasesandShelving Units|Bookcase_SelvingUnit
+CableManagementandAccessories|CableManagmentAccessory
+Desks|Desk
+Mobile&TableStand|Mobile_TableStand
+Clocks|Clock
+DecorativeAccessories|DecorativeAccessory
+ArtCards|ArtCard
+Frames|Frame
+Picture Ledges|PictureLedge
+Posters|Poster
+ReadytoHang|ReadyToHang
+WallStickers|WallSticker
+Artificial Plants|ArtificialPlant
+PlantPots|PlantPot
+DeskStools|DeskStool
+OfficeChairs|OfficeChair
+Swivel-Chairs|SwivelChair
+DeskCombinations|DeskCombinations
+TableLegas & Table Legas Trestles|TableLeg_Trestle
+TableTops|TableTop
+DrawerUnits|DrawerUnit
+StorageCabinets|StorageCabinet
+CeilingLights|CeilingLight
+IntegralLighting|IntegralLighting
+SmartLighting|SmartLighting
+TableLamps|TableLamp
+WireleesLEDbulbs|WirelessLedBulb
+WorkLamps|WorkLamp
+Mobile&TableStand|Mobile_TableStand
+Accessories|OfficeDeskAccessory
+OfficeLegs|OfficeLeg
+ReceptionDesk|ReceptionDesk
+DeskAccessories|DeskAccessory
+MagazineFiles|MagazineFile
+NoticeBoards|NoticeBoard
+Staionary|Stationary
+wrappingpapergiftbagsaccessories|WrappingPaperGiftBagAccessory
+Baskets|Basket
+StorageBoxes|StorageBox
+Brackets|Bracket
+CompleteWallShelves|CompleteWalfShelf
+Shelves|Shelf
+BarStoolsandTables|BarStool_Table
+Chair|KitchenChair
+Bakeware|Bakeware
+CoffeeandTeaMakers|Coffee_TeaMaker
+Colander|Colander
+CookingUtensils|CookingUtensil
+Dishwashing|Dishwashing
+FoodContainers|FoodContainer
+FryingPansandWoks|FryingPan_Wok
+KitchenTextiles|KitchenTextiles
+KnivesandChoppingBoards|Knife_ChoppingBoard
+MixingandMeasuringTools|Mixing_MeasuringTool
+Ovenware|Ovenware
+PotsandPans|Pot_Pan
+CurtainsandBlinds|CurtainBlind
+Curtainsandrods|CurtainRods
+DiningSets|DiningSet
+DiningTables|DiningTable
+KitchenCabinets|KitchenCabinet
+KitchenIslandsandTrolleys|KitchenIsland_Trolley
+KitchenSelvesandSelvingUnits|KitchenSelf_SelfingUnit
+KitchenSplashbancks|KitchenSplashbanck
+KitchenTapsandSinks|KitchenTap_Sink
+KitchenOrganizers|KitchenOrganizer
+ModularKitchen|ModularKitchen
+WorktopsandWorktopAccessories|Worktop_WorktopAccessory
+Batteries|Battery
+ShadesBasesCords|ShadeBase_Cord
+WallLights|WallLight
+DishWasher|Dishwasher
+ExtractorHoodsandFilters|ExtractorHood_Filter
+FridgesandFreezers|Fridge_Freezer
+InductionHobs|InductionHob
+MicroWave|Microwave
+Ovens|Oven
+StoolandBenches|Stool_Bench
+CoffeeandTeaMakers_|Coffee_TeaMaker
+Cultery|Cultery
+DinnerWare|Dinnerware
+Glasses,MugsandCups|Glass_Mug_Cup
+JugsandCarafes|Jug_Carafe
+NapkinandNapkinHolders|Napkin_NapkinHolder
+Serveware|Serveware
+TableLinen|TableLinen
+WasteSortingBin|WasteSortingBin
+Hat&CoatStands|Hat_CoatStand
+ShoesCabinet|ShoeCabinet
+ClothesStorageBoxes|ClotheStorageBox
+Wardrobehangingstorage|WardrobeHangingStorage
+CleaningAccessories|CleaningAccessory
+DryingRacks|DryingRack
+IroningBoards|IroningBoard
+LaundryBaskets|LaundryBasket
+OpenStorageSystem|OpenStorageSystem
+StepStoolsandStepLadders|StepStool_Ladder
+BedSpreadsandThrows|BedSpread_Throw
+CabinetsandDisplayCabinets|Cabinet_DisplayCabinet
+CoffeeandSideTables|Coffee_SideTable
+CushionandCushionCovers|Cushion_CusionCover
+BESTAAccessories|BESTAAccessory
+BESTACabinets|BESTACabinet
+BESTADisplayCabinets|BESTADisplayCabinet
+BESTADoorsandDrawers|BESTADoor_Drawer
+BESTAFrames|BESTAFrame
+BESTASideboards|BESTASideboard
+BESTATVBenches|BESTATVBench
+KnobsandHandles|BESTAKnob_Handle
+LEDDoorSURTE|BESTADoorSURTE
+EKETSystem|EKETSystem
+HAVSTASystems|HAVSTASystem
+PLATSACombinations|PLATSACombination
+GRONLIDSystem|GRONLIDSystem
+KUNGSHAMNSystem|KUNGSHAMNSystem
+LIDHULTSystem|LIDHULTSystem
+SODERHAMNSystem|SODERHAMNSystem
+VALENTUNASystem|VALENTUNASystem
+VIMLESystem|VILMESystem
+Rugs|Rug
+SideboardsandConsoleTables|SideboardConsoleTable
+ArmChairs|Armchair
+CornerSofas|CornerSofa
+DELAKTIGSystem|DELAKTIGSystem
+FabricChaise|FabricChaise
+FootStools|Footstool
+OutdoorSofas|OutdoorSofa
+SofaAccessoriesandLegs|SofaAccessory_Leg
+ArmChairBeds|ArmchairBed
+GuestBeds|GuestBed
+SofaBedCovers|SofaBedCover
+SofaBedMattresses|SofaBedMattress
+SofaCovers|SofaCover
+Three-SeatedSofas|ThreeSeatedSofa
+Two-SeatedSofas|TwoSeatedSofa
+TVStandsandMediaUnits|TVStand_MediaUnit
+BabyLinen|BabyLinen
+STUVAInterior Fitting|STUVAInteriorFitting
+childrens-chest-of-drawers|ChildrenChestOfDrawers
+childrens-wardrobes|ChildrenWardrobe
+toy-storage|ToyStrorage
+toy-storage-boxes|ToyStorageBox
+#toy-storage
+Cots|Cot
+CotMatrices|CotMattress
+HangingStorage|HangingStorage
+WallOrganizer|WallOrganizer
+ChildSafety|ChildSafety
+ChildrenDuvetCovers|ChildrenDuvetCover
+DuvetCovers|DuvetCover
+ChildrenSmallChair|ChildrenSmallChair
+ChildrenSmallTable|ChildrenSmallTable
+PhysicalPlay|PhysicalPlay
+RolePlay|RolePlay
+Pillows|Pillow
+BathroomStoolsandBenches|Stools_Benches
+BathroomHighCabinet|HighCabinet
+BathroomTrolleys|Trolley
+BathroomWallCabinets|WallCabinet
+GlassSleves|GlassSelf
+ShelfUnits|SelfUnit
+ChildrenDuvetCovers|ChildrenDuvetCover
+DuvetCovers|DuvetCover
+PillowCovers|PillowCover
+AdultBeds|AdultBed
+BedAccessories|BedAccessory
+BedSideTables|BedsideTable
+DressingTables|DressingTable
+MattrissesPillowProtectors|Mat_PillowProtector
+UnderBedStorage|UnderBedStorage
+ChairPads|ChairPad
+DecorativeLighting|DecorativeLighting
+FloorLamps|FloorLamp
+SideboardsandBuffets|Sideboard_Buffet
+ChestofDrawers|ChestOfDrawers
+ClothesandShoesStorage|Clothes_ShoesStorage
+DoorMats|DoorMat
+#OpenStorageFurniture
+#ClothesOrganizer
+#FreestandingWardrobes
+OpenStorageWordrobes|OpenStorageFurniture
+#PAXWardrobes
+#PLATSAModularStorageSystem
+#BookcasesandShelvingUnits
+CableManagementandAccessories|CableManagmentAccessory
+DecorativeAccessories|DecorativeAccessory
+ArtCards|ArtCard
+PictureLedges|PictureLedge
+ReadytoHang|ReadyToHang
+WallStickers|WallSticker
+ArtificialPlants|ArtificialPlant
+PlantPots|PlantPot
+DeskStools|DeskStool
+OfficeChairs|OfficeChair
+TableLegas&TableLegasTrestles|TableLeg_Trestle
+0months|_0Month
+6months|_6Month
+12months|_12Month
+18months|_18Month
+Changing-Table Nursing|ChangingTable_Nursing
+ChildrenRugs|ChildrenRug
+ClothesOrganizer|Clothe_Organizer
+Freestanding Wardrobes|FreestandingWardrobe
+Open Storage Wordrobes|OpenStorageWardrobe
+PAXWardrobes|PAXWardrobe
+PLATSAModular Storage System|PLATSAModularStorageSystem
+SofaBeds|SofaBed
+Desk Combinations|DeskCombination
+TableTops|OfficeDeskTableTop
+Clothes Storage Boxes|ClotheStorageBox
+Wardrobe hanging storage|WardrobeHangingStorage
+Hat & Coat Stands|Hat_CoatStand
+Shoes Cabinet|ShoeCabinet
+Sofa Beds and Chair Beds|SofaBed_ChairBed
+ArmChair Beds|ArmchairBed
+Guest Beds|GuestBed
+Sofa Bed Covers|SofaBedCover
+Sofa Bed Mattresses|SofaBedMattress
+Sofa Beds|SofaBed
+##################end

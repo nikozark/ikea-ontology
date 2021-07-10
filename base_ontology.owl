@@ -1,0 +1,1799 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns="http://www.owl-ontologies.com/Ontology1624811408.owl#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://www.owl-ontologies.com/Ontology1624811408.owl">
+  
+  
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="WallCabinet">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >WallCabinet</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Storage"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Cookware">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Kitchen"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cookware</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="WasteSortingBin">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Kitchen"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >WasteSortingBin</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ChangingTable_Nursing">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChangingTable_Nursing</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Baby"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Dishwasher">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Kitchen_Workshop"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dishwasher</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="GuestBed">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="SofaBed_ChairBed"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >GuestBed</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Bathroom">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bathroom</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="IKEA"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Laundry">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Laundry</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#IKEA"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Children3_7">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Children3_7</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="BabyChildren"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="KitchenIsland_Trolley">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="KitchenAppliance"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >KitchenIsland_Trolley</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="BedSpread_Throw">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Livingroom"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BedSpread_Throw</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="IntegralLighting">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="HomeOfficeLighting"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IntegralLighting</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="AdultBed">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Bed"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >AdultBed</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Dishwashing">
+    <rdfs:subClassOf rdf:resource="#Cookware"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dishwashing</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Mobile_TableStand">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="HomeOffice"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mobile_TableStand</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="KUNGSHAMNSystem">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ModularSofa"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >KUNGSHAMNSystem</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="GlassSelf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >GlassSelf</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Storage"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="OpenStorageSystem">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OpenStorageSystem</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Laundry"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Hat_CoatStand">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ClotheShoeStorage"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hat_CoatStand</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="PLATSAModularStorageSystem">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PLATSAModularStorageSystem</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Wardrobe"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="OfficeChair">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="DeskChair"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OfficeChair</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="FloorLamp">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="DiningRoom"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >FloorLamp</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="VILMESystem">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ModularSofa"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VILMESystem</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ToyStrorage">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ToyStrorage</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ChildrenStorageFurniture"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Bedding">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bedding</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Bedroom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TableTop">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TableTop</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="DeskTable_Legs"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Sink">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sink</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Bathroom"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenTextile8_12">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenTextile8_12</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ChildrenTextile"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenDesks">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ChildrenChair"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenDesks</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ClotheStorageBox">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ClotheStorageBox</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ClotheOrganizer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Children_Bed">
+    <rdfs:subClassOf rdf:resource="#Children3_7"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Children_Bed</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Stools_Benches">
+    <rdfs:subClassOf rdf:resource="#Bathroom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Stools_Benches</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="CleaningAccessory">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="LaundryCleaning"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CleaningAccessory</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="EKETSystem">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >EKETSystem</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="LivingRoomSystem"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DecorativeAccessory">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DecorativeAccessory</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Decoration"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TwoSeatedSofa">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Sofa_Armchair"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TwoSeatedSofa</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#SofaBed_ChairBed">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SofaBed_ChairBed</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Sofa_Armchair"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Pillow">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pillow</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Bedroom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="OfficeDeskAccessory">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="OfficeDesk"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OfficeDeskAccessory</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="NoticeBoard">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >NoticeBoard</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Paper_MediaOrganizer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DuvetCover">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DuvetCover</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Bedding"/>
+  </owl:Class>
+  <owl:Class rdf:ID="KitchenChair">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Kitchen"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >KitchenChair</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="BESTADisplayCabinet">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="BESTASystem"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BESTADisplayCabinet</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="DeskAccessory">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DeskAccessory</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Paper_MediaOrganizer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#HomeOffice">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#IKEA"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HomeOffice</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Worktop_WorktopAccessory">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#KitchenAppliance"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Worktop_WorktopAccessory</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="TableLamp">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#HomeOfficeLighting"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TableLamp</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="MagazineFile">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >MagazineFile</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Paper_MediaOrganizer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CookingUtensil">
+    <rdfs:subClassOf rdf:resource="#Cookware"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CookingUtensil</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenToys">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Baby"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenToys</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Desk">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Desk</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#HomeOffice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenDuvetCover">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenDuvetCover</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Bedding"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Accessory">
+    <rdfs:subClassOf rdf:resource="#Bathroom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Accessory</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="OfficeLeg">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#OfficeDesk"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OfficeLeg</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenWardrobe">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenWardrobe</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ChildrenStorageFurniture"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ShowerAccessory">
+    <rdfs:subClassOf rdf:resource="#Accessory"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ShowerAccessory</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="SelfUnit">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Storage"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SelfUnit</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="WirelessLedBulb">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#HomeOfficeLighting"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >WirelessLedBulb</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ReceptionDesk">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#OfficeDesk"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ReceptionDesk</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Basket">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Basket</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="StorageBox_Basket"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="InteriorOrganizer">
+    <rdfs:subClassOf rdf:resource="#Accessory"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >InteriorOrganizer</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="FreestandingWardrobe">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >FreestandingWardrobe</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Wardrobe"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Canopy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Canopy</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ChildrenTextile"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Dinnerware">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dinnerware</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Tableware"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PLATSACombination">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PLATSACombination</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#LivingRoomSystem"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#DeskTable_Legs">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DeskTable_Legs</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#HomeOffice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="PillowCover">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PillowCover</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Bedding"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Hallway">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#IKEA"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hallway</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Clothes_ShoesStorage">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Clothes_ShoesStorage</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Hallway"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenRug">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="BabyTestile"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenRug</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="BedAccessory">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Bed"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BedAccessory</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="HighChair">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HighChair</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Baby"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#ClotheShoeStorage">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ClotheShoeStorage</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Laundry"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BESTACabinet">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BESTACabinet</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BESTASystem"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Kitchen">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#IKEA"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Kitchen</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="TableLinen">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TableLinen</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Tableware"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PaperShop">
+    <rdfs:subClassOf rdf:resource="#HomeOffice"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PaperShop</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Shelf">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="WallShelf"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Shelf</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="WorkLamp">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >WorkLamp</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#HomeOfficeLighting"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Napkin_NapkinHolder">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Tableware"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Napkin_NapkinHolder</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="DeskCombination">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DeskCombination</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#OfficeDesk"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenChestOfDrawers">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenChestOfDrawers</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ChildrenStorageFurniture"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="OpenStorageFurniture">
+    <rdfs:subClassOf rdf:resource="#Hallway"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OpenStorageFurniture</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Rug">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rug</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Livingroom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ShadeBase_Cord">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="KitchenLighting"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ShadeBase_Cord</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="LIDHULTSystem">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ModularSofa"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LIDHULTSystem</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="_6Month">
+    <rdfs:subClassOf rdf:resource="#ChildrenToys"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >_6Month</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ArtCard">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Frame_Picture"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ArtCard</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="PAXWardrobe">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Wardrobe"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PAXWardrobe</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Clock">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Decoration"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Clock</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenMattress">
+    <rdfs:subClassOf rdf:resource="#Children3_7"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenMattress</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="PictureLedge">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PictureLedge</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Frame_Picture"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#ModularSofa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ModularSofa</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Livingroom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#ClotheOrganizer">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ClotheOrganizer</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Laundry"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Bakeware">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bakeware</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Cookware"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Frame_Picture">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Frame_Picture</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Decoration"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CotMattress">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Baby"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CotMattress</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="DoorMat">
+    <rdfs:subClassOf rdf:resource="#Hallway"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DoorMat</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="SofaBed">
+    <rdfs:subClassOf rdf:resource="#SofaBed_ChairBed"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SofaBed</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenBed">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenBed</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Bed"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DecorativeLighting">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DecorativeLighting</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DiningRoom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Livingroom">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Livingroom</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#IKEA"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenSmallStorage">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenSmallStorage</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Baby"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Paper_MediaOrganizer">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paper_MediaOrganizer</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#HomeOffice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Colander">
+    <rdfs:subClassOf rdf:resource="#Cookware"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Colander</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ChestOfDrawers">
+    <rdfs:subClassOf rdf:resource="#Hallway"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChestOfDrawers</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Towel_Bathmat">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Towel_Bathmat</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Bathroom"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CabinetCountertop">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CabinetCountertop</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="VanityUnit"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Duvet">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Duvet</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Bedroom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="BESTAKnob_Handle">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BESTAKnob_Handle</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BESTASystem"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="WoodenToy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >WoodenToy</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ChildrenToy"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Towel_100x150">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Towel_100x150</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Towel_Bathmat"/>
+  </owl:Class>
+  <owl:Class rdf:ID="KitchenSelf_SelfingUnit">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#KitchenAppliance"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >KitchenSelf_SelfingUnit</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="BabyTableware">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BabyTableware</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Baby"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Tap">
+    <rdfs:subClassOf rdf:resource="#Bathroom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tap</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Mirror">
+    <rdfs:subClassOf rdf:resource="#Bathroom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mirror</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="GRONLIDSystem">
+    <rdfs:subClassOf rdf:resource="#ModularSofa"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >GRONLIDSystem</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="FoodContainer">
+    <rdfs:subClassOf rdf:resource="#Cookware"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >FoodContainer</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="SofaBedCover">
+    <rdfs:subClassOf rdf:resource="#SofaBed_ChairBed"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SofaBedCover</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Knife_ChoppingBoard">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Knife_ChoppingBoard</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Cookware"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DeskStool">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DeskStool</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DeskChair"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Battery">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#KitchenLighting"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Battery</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Trolley">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Trolley</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Storage"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenDeskChair">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ChildrenChair"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenDeskChair</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="DrawerUnit">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DrawerUnit</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="DrawerUnit_StorageCabinet"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="OutdoorSofa">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OutdoorSofa</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Sofa_Armchair"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Sheet">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sheet</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Bedding"/>
+  </owl:Class>
+  <owl:Class rdf:about="#LivingRoomSystem">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LivingRoomSystem</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Livingroom"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BESTASideboard">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BESTASystem"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BESTASideboard</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Stool_Bench">
+    <rdfs:subClassOf rdf:resource="#Kitchen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Stool_Bench</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ChairPad">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChairPad</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DiningRoom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="CeilingLight">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CeilingLight</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#HomeOfficeLighting"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Coffee_SideTable">
+    <rdfs:subClassOf rdf:resource="#Livingroom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Coffee_SideTable</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Mat">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mat</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Bedroom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="HallwayMirror">
+    <rdfs:subClassOf rdf:resource="#Hallway"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HallwayMirror</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="IroningBoard">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IroningBoard</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#LaundryCleaning"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="HAVSTASystem">
+    <rdfs:subClassOf rdf:resource="#LivingRoomSystem"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HAVSTASystem</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ToyStorageBox">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ToyStorageBox</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ChildrenStorageFurniture"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Cabinet_DisplayCabinet">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cabinet_DisplayCabinet</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Livingroom"/>
+  </owl:Class>
+  <owl:Class rdf:about="#BabyChildren">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#IKEA"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BabyChildren</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ThreeSeatedSofa">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Sofa_Armchair"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ThreeSeatedSofa</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="BESTAAccessory">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BESTASystem"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BESTAAccessory</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="WallOrganizer">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >WallOrganizer</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#ChildrenSmallStorage"/>
+  </owl:Class>
+  <owl:Class rdf:ID="KitchenOrganizer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#KitchenAppliance"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >KitchenOrganizer</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="STUVADoorDrawer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ChildrenStorage"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >STUVADoorDrawer</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="SofaBedMattress">
+    <rdfs:subClassOf rdf:resource="#SofaBed_ChairBed"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SofaBedMattress</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Bathrobe_Slipper">
+    <rdfs:subClassOf rdf:resource="#Towel_Bathmat"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bathrobe_Slipper</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="BarStool_Table">
+    <rdfs:subClassOf rdf:resource="#Kitchen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BarStool_Table</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="TowelRails_TowelHolders">
+    <rdfs:subClassOf rdf:resource="#Accessory"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TowelRails_TowelHolders</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="SmartLighting">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#HomeOfficeLighting"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SmartLighting</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Frame">
+    <rdfs:subClassOf rdf:resource="#Frame_Picture"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Frame</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="KitchenTap_Sink">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#KitchenAppliance"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >KitchenTap_Sink</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#IKEA">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >IKEA</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="BathMat">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BathMat</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Towel_Bathmat"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CurtainDraper">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BabyTestile"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CurtainDraper</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Ovenware">
+    <rdfs:subClassOf rdf:resource="#Cookware"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ovenware</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="STUVAFrame">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >STUVAFrame</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ChildrenStorage"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Serveware">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Serveware</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Tableware"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Cultery">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cultery</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Tableware"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Kitchen_Workshop">
+    <rdfs:subClassOf rdf:resource="#Kitchen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Kitchen_Workshop</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="OpenStorageWardrobe">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Wardrobe"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OpenStorageWardrobe</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#VanityUnit">
+    <rdfs:subClassOf rdf:resource="#Bathroom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VanityUnit</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="WallSticker">
+    <rdfs:subClassOf rdf:resource="#Frame_Picture"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >WallSticker</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="KitchenTextiles">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >KitchenTextiles</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Cookware"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Footstool">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Sofa_Armchair"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Footstool</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#ChildrenStorageFurniture">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Baby"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenStorageFurniture</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ModularKitchen">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ModularKitchen</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#KitchenAppliance"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Hook_Hanger">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hook_Hanger</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#ChildrenSmallStorage"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ArtificialPlant">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ArtificialPlant</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Plant"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Scale">
+    <rdfs:subClassOf rdf:resource="#Accessory"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Scale</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Towel_40x70">
+    <rdfs:subClassOf rdf:resource="#Towel_Bathmat"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Towel_40x70</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Jug_Carafe">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Tableware"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Jug_Carafe</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Children_DuvetCover">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Children_DuvetCover</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ChildrenTextile"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="BabyLinen">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BabyTestile"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BabyLinen</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="SwivelChair">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SwivelChair</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DeskChair"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#ChildrenStorage">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Baby"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenStorage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Bedroom">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bedroom</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#IKEA"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SinkCabinet">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SinkCabinet</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#VanityUnit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="_12Month">
+    <rdfs:subClassOf rdf:resource="#ChildrenToys"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >_12Month</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Children_Lighting">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Children_Lighting</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Children3_7"/>
+  </owl:Class>
+  <owl:Class rdf:ID="HangingStorage">
+    <rdfs:subClassOf rdf:resource="#ChildrenSmallStorage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HangingStorage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="StepStool_Ladder">
+    <rdfs:subClassOf rdf:resource="#Laundry"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >StepStool_Ladder</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="DeskCombinations">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DeskCombinations</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#DeskTable_Legs"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DressingTable">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DressingTable</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Bedroom"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Lighting">
+    <rdfs:subClassOf rdf:resource="#Bathroom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Lighting</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Bracket">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bracket</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#WallShelf"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Towel_30x30">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Towel_30x30</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Towel_Bathmat"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Storage">
+    <rdfs:subClassOf rdf:resource="#Bathroom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Storage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="KitchenSplashbanck">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#KitchenAppliance"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >KitchenSplashbanck</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenSmallChair">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenSmallChair</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ChildrenSmallFurniture"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#ChildrenSmallFurniture">
+    <rdfs:subClassOf rdf:resource="#Children3_7"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenSmallFurniture</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenLighting">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenLighting</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Baby"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="KitchenCabinet">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >KitchenCabinet</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#KitchenAppliance"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="UnderBedStorage">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >UnderBedStorage</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Bedroom"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BabyCushion_Blanket">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BabyCushion_Blanket</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BabyTestile"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TableLeg_Trestle">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TableLeg_Trestle</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#DeskTable_Legs"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenSmallTable">
+    <rdfs:subClassOf rdf:resource="#ChildrenSmallFurniture"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenSmallTable</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="WardrobeHangingStorage">
+    <rdfs:subClassOf rdf:resource="#ClotheOrganizer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >WardrobeHangingStorage</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#ChildrenChair">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenChair</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Children3_7"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BedsideTable">
+    <rdfs:subClassOf rdf:resource="#Bedroom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BedsideTable</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#KitchenLighting">
+    <rdfs:subClassOf rdf:resource="#Kitchen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >KitchenLighting</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="CableManagmentAccessory">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CableManagmentAccessory</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#HomeOffice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="RolePlay">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >RolePlay</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ChildrenToy"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#DiningRoom">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DiningRoom</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#IKEA"/>
+  </owl:Class>
+  <owl:Class rdf:about="#KitchenAppliance">
+    <rdfs:subClassOf rdf:resource="#Kitchen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >KitchenAppliance</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#WallShelf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >WallShelf</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#HomeOffice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="FryingPan_Wok">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >FryingPan_Wok</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Cookware"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ArmchairBed">
+    <rdfs:subClassOf rdf:resource="#SofaBed_ChairBed"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ArmchairBed</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="BabyToyStorageBox">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BabyToyStorageBox</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#ChildrenSmallStorage"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SofaCover">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SofaCover</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Sofa_Armchair"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Wardrobe">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Wardrobe</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Hallway"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DiningTable">
+    <rdfs:subClassOf rdf:resource="#Kitchen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DiningTable</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="HighCabinet">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HighCabinet</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Storage"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BESTADoorSURTE">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BESTADoorSURTE</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BESTASystem"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Coffee_TeaMaker">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Coffee_TeaMaker</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Cookware"/>
+  </owl:Class>
+  <owl:Class rdf:about="#StorageBox_Basket">
+    <rdfs:subClassOf rdf:resource="#HomeOffice"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >StorageBox_Basket</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Stationary">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Stationary</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#PaperShop"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SODERHAMNSystem">
+    <rdfs:subClassOf rdf:resource="#ModularSofa"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SODERHAMNSystem</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="BESTADoor_Drawer">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BESTADoor_Drawer</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BESTASystem"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildSafety">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildSafety</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Baby"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mixing_MeasuringTool">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mixing_MeasuringTool</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Cookware"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Plant">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Plant</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Decoration"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SinkAcessory">
+    <rdfs:subClassOf rdf:resource="#Accessory"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SinkAcessory</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Poster">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Poster</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Frame_Picture"/>
+  </owl:Class>
+  <owl:Class rdf:about="#HomeOfficeLighting">
+    <rdfs:subClassOf rdf:resource="#HomeOffice"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HomeOfficeLighting</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Book_Game">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Book_Game</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ChildrenToy"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ExtractorHood_Filter">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ExtractorHood_Filter</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Kitchen_Workshop"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Tableware">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tableware</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Kitchen"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Shower">
+    <rdfs:subClassOf rdf:resource="#Bathroom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Shower</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="PhysicalPlay">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ChildrenToy"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PhysicalPlay</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="_0Month">
+    <rdfs:subClassOf rdf:resource="#ChildrenToys"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >_0Month</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Mat_PillowProtector">
+    <rdfs:subClassOf rdf:resource="#Bedroom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mat_PillowProtector</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ToiletAccessory">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ToiletAccessory</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Accessory"/>
+  </owl:Class>
+  <owl:Class rdf:ID="VALENTUNASystem">
+    <rdfs:subClassOf rdf:resource="#ModularSofa"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >VALENTUNASystem</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Sideboard_Buffet">
+    <rdfs:subClassOf rdf:resource="#DiningRoom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sideboard_Buffet</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="StorageCabinet">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >StorageCabinet</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#DrawerUnit_StorageCabinet"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenAccessory">
+    <rdfs:subClassOf rdf:resource="#Children3_7"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenAccessory</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="BaseCabinet">
+    <rdfs:subClassOf rdf:resource="#VanityUnit"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BaseCabinet</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="LaundryBasket">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#LaundryCleaning"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LaundryBasket</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ReadyToHang">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ReadyToHang</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Frame_Picture"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SmallBox">
+    <rdfs:subClassOf rdf:resource="#ChildrenSmallStorage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SmallBox</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="TVStand_MediaUnit">
+    <rdfs:subClassOf rdf:resource="#Livingroom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TVStand_MediaUnit</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#ChildrenTextile">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenTextile</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Children3_7"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TentToy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TentToy</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ChildrenToy"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="DELAKTIGSystem">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DELAKTIGSystem</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Sofa_Armchair"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Sofa_Armchair">
+    <rdfs:subClassOf rdf:resource="#Livingroom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sofa_Armchair</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ShowerCurtain">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ShowerCurtain</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Bathroom"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CornerSofa">
+    <rdfs:subClassOf rdf:resource="#Sofa_Armchair"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CornerSofa</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="PlantPot">
+    <rdfs:subClassOf rdf:resource="#Plant"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PlantPot</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="DryingRack">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#LaundryCleaning"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DryingRack</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Cushion_CusionCover">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cushion_CusionCover</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Livingroom"/>
+  </owl:Class>
+  <owl:Class rdf:about="#DrawerUnit_StorageCabinet">
+    <rdfs:subClassOf rdf:resource="#HomeOffice"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DrawerUnit_StorageCabinet</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#DeskChair">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DeskChair</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#HomeOffice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="STUVAInteriorFitting">
+    <rdfs:subClassOf rdf:resource="#ChildrenStorage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >STUVAInteriorFitting</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="ChildrenDesk_Chair">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenDesk_Chair</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Children3_7"/>
+  </owl:Class>
+  <owl:Class rdf:ID="SofaAccessory_Leg">
+    <rdfs:subClassOf rdf:resource="#Sofa_Armchair"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SofaAccessory_Leg</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Armchair">
+    <rdfs:subClassOf rdf:resource="#Sofa_Armchair"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Armchair</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Glass_Mug_Cup">
+    <rdfs:subClassOf rdf:resource="#Tableware"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Glass_Mug_Cup</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="CabinetLegs">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CabinetLegs</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#VanityUnit"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CompleteWalfShelf">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CompleteWalfShelf</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#WallShelf"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Fridge_Freezer">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Fridge_Freezer</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Kitchen_Workshop"/>
+  </owl:Class>
+  <owl:Class rdf:about="#OfficeDesk">
+    <rdfs:subClassOf rdf:resource="#HomeOffice"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OfficeDesk</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="WallLight">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >WallLight</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#KitchenLighting"/>
+  </owl:Class>
+  <owl:Class rdf:ID="STUVACombination">
+    <rdfs:subClassOf rdf:resource="#ChildrenStorage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >STUVACombination</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#ChildrenToy">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ChildrenToy</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Children3_7"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Oven">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Oven</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Kitchen_Workshop"/>
+  </owl:Class>
+  <owl:Class rdf:ID="DiningSet">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >DiningSet</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Kitchen"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BabyAccessory">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Baby"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BabyAccessory</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Clothe_Organizer">
+    <rdfs:subClassOf rdf:resource="#Wardrobe"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Clothe_Organizer</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Towel_70x140">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Towel_70x140</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Towel_Bathmat"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Baby">
+    <rdfs:subClassOf rdf:resource="#BabyChildren"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Baby</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="SoftToy">
+    <rdfs:subClassOf rdf:resource="#ChildrenToy"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SoftToy</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="InductionHob">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >InductionHob</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Kitchen_Workshop"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Speaker">
+    <rdfs:subClassOf rdf:resource="#DiningRoom"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Speaker</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#LaundryCleaning">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >LaundryCleaning</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Laundry"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Cot">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cot</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Baby"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Bookcase_SelvingUnit">
+    <rdfs:subClassOf rdf:resource="#HomeOffice"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bookcase_SelvingUnit</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="_18Month">
+    <rdfs:subClassOf rdf:resource="#ChildrenToys"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >_18Month</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="CurtainRods">
+    <rdfs:subClassOf rdf:resource="#Kitchen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CurtainRods</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="OfficeDeskTableTop">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >OfficeDeskTableTop</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#OfficeDesk"/>
+  </owl:Class>
+  <owl:Class rdf:ID="CurtainBlind">
+    <rdfs:subClassOf rdf:resource="#Kitchen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >CurtainBlind</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="WrappingPaperGiftBagAccessory">
+    <rdfs:subClassOf rdf:resource="#PaperShop"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >WrappingPaperGiftBagAccessory</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="BESTATVBench">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BESTATVBench</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BESTASystem"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Microwave">
+    <rdfs:subClassOf rdf:resource="#Kitchen_Workshop"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Microwave</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#BabyTestile">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BabyTestile</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Baby"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Bed">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bed</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Bedroom"/>
+  </owl:Class>
+  <owl:Class rdf:ID="StorageBox">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >StorageBox</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#StorageBox_Basket"/>
+  </owl:Class>
+  <owl:Class rdf:ID="ShoeCabinet">
+    <rdfs:subClassOf rdf:resource="#ClotheShoeStorage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ShoeCabinet</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Decoration">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Decoration</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#HomeOffice"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Art_Craft">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Art_Craft</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#ChildrenToy"/>
+  </owl:Class>
+  <owl:Class rdf:ID="FabricChaise">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >FabricChaise</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Sofa_Armchair"/>
+  </owl:Class>
+  <owl:Class rdf:ID="BESTAFrame">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BESTAFrame</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#BESTASystem"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="SideboardConsoleTable">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >SideboardConsoleTable</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Livingroom"/>
+  </owl:Class>
+  <owl:Class rdf:about="#BESTASystem">
+    <rdfs:subClassOf rdf:resource="#LivingRoomSystem"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >BESTASystem</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Pot_Pan">
+    <rdfs:subClassOf rdf:resource="#Cookware"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pot_Pan</rdfs:label>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:ID="hasWidth">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hasWidth</rdfs:label>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+          <owl:Class rdf:about="#IKEA"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="hasLength">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+          <owl:Class rdf:about="#IKEA"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >hasLength</rdfs:label>
+  </owl:DatatypeProperty>
+
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.5, Build 663)  http://protege.stanford.edu -->
